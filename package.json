@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon .",
-    "start": "node ."
+    "start": "node deploy-commands.js && node ."
   },
   "dependencies": {
     "@discordjs/builders": "^0.14.0",
